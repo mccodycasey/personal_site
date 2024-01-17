@@ -5,13 +5,13 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: #2d1b1b;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
-    rgba(140, 195, 225, 0.2) 0deg,
+    rgba(255, 166, 0) 0deg,
     #FFC01B19 55deg,
     #B6000033 120deg,
     #FFC01B19 160deg,
@@ -42,7 +42,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 192, 27;
+    --foreground-rgb: #ffffff;
     --background-start-rgb: 180, 6, 6;
     --background-end-rgb: 255, 192, 27;
 
